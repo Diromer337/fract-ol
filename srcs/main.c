@@ -22,7 +22,7 @@ int				main(int argc, char **argv)
 		if (fractol.type == NONE)
 		{
 			ft_putendl("Usage: ./fractol [FRACTOL_TYPE]");
-			ft_putendl("[mandelbrot] [julia] [flowerbrot]");
+			ft_putendl("[mandelbrot] [julia] [phoenix]");
 			return (1);
 		}
 		draw_fractol(&fractol);
@@ -36,7 +36,7 @@ int				main(int argc, char **argv)
 	else
 	{
 		ft_putendl("Usage: ./fractol [FRACTOL_TYPE]");
-		ft_putendl("[mandelbrot] [julia] [flowerbrot]");
+		ft_putendl("[mandelbrot] [julia] [phoenix]");
 	}
 	return (0);
 }
